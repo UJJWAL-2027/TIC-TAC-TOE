@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body{
+    background-color:#99B2DD;
+    text-align: center;
+  
+}
+
+
+/* justify content (horizontal) , align items ( vertical) they both work on display flex only  */
+/* display: flex; is a CSS property that enables the Flexbox layout */  
+
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.game{
+height: 60vmin;
+width: 60vmin;
+display: flex;
+justify-content: center; 
+align-items: center;
+flex-wrap: wrap;  /* Allows items to move to the next row */
+ gap: 1.5vmin;  /* Adds spacing between items INSIDE IT */
+}
+
+.box{
+    height: 18vmin;
+    width: 18vmin;      /*height aur width itna set karein ye simple math ya hit and trial se kr skte h ,, gapp kr direction mein add hota hai */
+    border-radius: 1rem;
+    border: none;
+    font-size: 8vmin;
+    color: darkgreen;
+      background:#ffffc7;
+}
+
+#reset-game{
+    padding: 1rem;
+  font-size: 1rem;
+  background-color: #191913;
+  color: #fff;
+  border-radius: 1rem;
+  border: none;
+}
+
+#new{
+    padding: 1rem;
+  font-size: 1rem;
+  background-color: #191913;
+  color: #fff;
+  border-radius: 1rem;
+  border: none;
+}
+
+
+#msg {
+    color: #ffffc7;
+    font-size: 5vmin;
+  }
+  
+
+
+  .msg-container {
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+
+   
+  }
+  
+   .hide {
+    display: none;   
+  }
